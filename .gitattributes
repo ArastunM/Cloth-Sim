@@ -1,1 +1,1 @@
-cmake_modules/* -linguist-detectable
+src/cmake_modules/* -linguist-detectable
