@@ -1,7 +1,7 @@
 # Cloth Simulator
-A simple 2D cloth simulator, written in C++ SFML. Program provides realistic tearing and moving/dragging of the cloth.
+A simple 2D cloth simulator, written in C++ SFML. Program provides realistic *tearing* and *moving*/*dragging* of the cloth.
 
-The simulation works based on the principles of [Verlet Integration](https://en.wikipedia.org/wiki/Verlet_integration). The cloth consists of particles and constraints (sticks connecting the particles). The force is applied to the small particles and sticks adjust accordingly.
+The simulation works based on the principles of [Verlet Integration](https://en.wikipedia.org/wiki/Verlet_integration). The cloth consists of *particles* and *constraints* (sticks connecting the particles). The force is applied to the small particles and sticks adjust accordingly.
 
 <p align="center">
    <img src="demo/example-gif.gif" alt="animated" />
