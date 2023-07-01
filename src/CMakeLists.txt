@@ -2,6 +2,10 @@ cmake_minimum_required(VERSION 3.20)
 project(Cloth)
 
 set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# building executables as GUI apps, rather than console apps
+set(CMAKE_WIN32_EXECUTABLE TRUE)
 
 add_executable(Cloth main.cpp gui/cloth_app.hpp gui/cloth_app.cpp engine/cloth.hpp engine/cloth.cpp
         engine/verlet/constraint.hpp engine/verlet/constraint.cpp engine/verlet/verlet_entity.hpp
